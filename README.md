@@ -1,7 +1,7 @@
 # Datopian_Challenge
 
 __Goal__ : write a script to get a nice CSV file of natural gas prices.
-I m working with Python 3.7 on windows.
+
 
 1. Work Environment 
 ------
