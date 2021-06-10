@@ -1,0 +1,6 @@
+name: venv
+channels:
+  - conda-forge
+dependencies:
+  - requests = 2.25.0
+
