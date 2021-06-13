@@ -1,0 +1,115 @@
+{
+    "profile": "tabular-data-package" , 
+    "ressources" : [
+        {
+            "name" : "Daily_prices ",
+            "path" : "https://github.com/Ouissamthn/Datopian_Challenge/blob/master/GasPrices/Daily_prices.csv",
+            "profile" :"tabular-data-package",
+            "format": "csv",
+            "title":"Henry Hub Natural Gas Spot Price (Dollars per Million Btu)",
+            "description": "Table with two columns, contains daily gas prices",
+            "schema" : {
+                "fields": [
+                    {
+                        "name":"Date",
+                        "type": "date",
+                        "format": "yyyymmdd"
+                    },
+                    {
+                        "name":"Prices",
+                        "type":"number",
+                        "format":"float",
+                        "description": "Daily gas prices" 
+                    }
+                ]
+            }
+        },
+        {
+            "name" :"Weekly_prices ",
+            "path" : "https://github.com/Ouissamthn/Datopian_Challenge/blob/master/GasPrices/Weekly_prices.csv",
+            "profile" :"tabular-data-package",
+            "format": "csv",
+            "title":"Henry Hub Natural Gas Spot Price (Dollars per Million Btu)",
+            "description": "Table with two columns, contains weekly gas prices",
+            "schema" : {
+                "fields": [
+                    {
+                        "name":"Date",
+                        "type": "date of Friday for each week ",
+                        "format": "yyyymmdd"
+                    },
+                    {
+                        "name":"Prices",
+                        "type":"number",
+                        "format":"float",
+                        "description": "Weekly gas prices" 
+                    }
+                ]
+            }
+        },
+        {
+            "name" :"Monthly_prices ",
+            "path" : "https://github.com/Ouissamthn/Datopian_Challenge/blob/master/GasPrices/Monthly_prices.csv",
+            "profile" :"tabular-data-package",
+            "format": "csv",
+            "title":"Henry Hub Natural Gas Spot Price (Dollars per Million Btu)",
+            "description": "Table with two columns, contains montly gas prices",
+            "schema" : {
+                "fields": [
+                    {
+                        "name":"Date",
+                        "type": "Month date",
+                        "format": "yyyymm"
+                    },
+                    {
+                        "name":"Prices",
+                        "type":"number",
+                        "format":"float",
+                        "description": "Monthly gas prices" 
+                    }
+                ]
+            }
+        },
+        {
+            "name" :"Annually_prices ",
+            "path" : "https://github.com/Ouissamthn/Datopian_Challenge/blob/master/GasPrices/Annually_prices.csv",
+            "profile" :"tabular-data-package",
+            "format": "csv",
+            "title":"Henry Hub Natural Gas Spot Price (Dollars per Million Btu)",
+            "description": "Table with two columns, contains annually gas prices",
+            "schema" : {
+                "fields": [
+                    {
+                        "name":"Date",
+                        "type": "date",
+                        "format": "yyyy"
+                    },
+                    {
+                        "name":"Prices",
+                        "type":"number",
+                        "format":"float",
+                        "description": "Annually gas prices" 
+                    }
+                ]
+            }
+        }
+    ],
+    "name" : "Henry_Hub_Natural_Gas_Spot_Price",
+    "description" :"Web scraping from https://www.eia.gov/dnav/ng/hist/rngwhhdm.htm",
+    "version" : "2021",
+    "contributors" : [
+        {
+            "title" : "Ouissame TAHANI",
+            "role" : "author"
+
+        }
+    ],
+    "licenses" : [
+        {
+            "title":"BSD-3-Clause",
+            "description" : " for more details about this license visit the following website : https://opensource.org/licenses/BSD-3-Clause" 
+        }
+    ]
+
+
+}
